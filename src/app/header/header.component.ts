@@ -14,7 +14,7 @@ export class HeaderComponent{
 
    // }
    constructor(private datastorageService:DataStorageService,
-private authService:AuthService){}
+public authService:AuthService){}
    onSaveData(){
    this.datastorageService.storeRecipe()
    .subscribe(
